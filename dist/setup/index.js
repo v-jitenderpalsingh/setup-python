@@ -55297,9 +55297,9 @@ const semver = __importStar(__nccwpck_require__(62088));
 const utils_1 = __nccwpck_require__(71798);
 const TOKEN = core.getInput('token');
 const AUTH = !TOKEN ? undefined : `token ${TOKEN}`;
-const MANIFEST_REPO_OWNER = 'v-jitenderpalsingh';
+const MANIFEST_REPO_OWNER = 'actions';
 const MANIFEST_REPO_NAME = 'python-versions';
-const MANIFEST_REPO_BRANCH = 'test-1318';
+const MANIFEST_REPO_BRANCH = 'main';
 exports.MANIFEST_URL = `https://raw.githubusercontent.com/${MANIFEST_REPO_OWNER}/${MANIFEST_REPO_NAME}/${MANIFEST_REPO_BRANCH}/versions-manifest.json`;
 function getLinuxOsRelease() {
     try {
